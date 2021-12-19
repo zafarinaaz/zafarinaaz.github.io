@@ -34,8 +34,10 @@
    }
    .footer-list li{
        text-align: center;
-       margin-right: 20px;
+       justify-content: center;
+        margin-right:22px;
        margin-bottom: 10px;
+      
    }
    .tautan a {
        font-size: 20px;
@@ -49,5 +51,8 @@
    }
    .footer-list{
     margin-top: 5px;
+    flex-wrap: wrap;
+    
    }
+
 }
