@@ -1,0 +1,53 @@
+/*untuk smartphone*/
+@media all and (max-width: 670px){
+   .header-name{
+       display: flex;
+   }
+   .menu-list{
+       display:none;
+   }
+   .menu-ikon{
+       display:block;
+       float:right; 
+   }
+
+   .top-text p{
+    font-size: 35px;
+    }
+    .top {
+        height:350px;
+    }
+
+    .btn {
+        display:inline-block;
+        padding:10px 30px;
+        
+        background-color:rgb(96, 152, 255);
+        border-radius: 5px;
+    }
+
+
+   .footer-logo h2 {
+       float:none;
+       font-size: 35px;
+       text-align: center;
+   }
+   .footer-list li{
+       text-align: center;
+       margin-right: 20px;
+       margin-bottom: 10px;
+   }
+   .tautan a {
+       font-size: 20px;
+       
+   }
+   .tautan {
+       float:none;
+       display: flex;
+       justify-content: center;
+       margin-left: 110px;
+   }
+   .footer-list{
+    margin-top: 5px;
+   }
+}
