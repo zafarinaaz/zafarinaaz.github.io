@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+li, a {
+    list-style:none;
+    text-decoration: none;
+}
+h2 {
+    margin-left: 30px;
+}
+.header-name {
+    text-align: center;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.menu-list li {
+    
+    float:left;
+    width: 20%;
+    
+    
+}
+.menu-list li a{
+   
+    color: black;
+    
+}
+.menu-list{
+    text-align:center;
+    padding-bottom: 50px ;
+}
+
+.top {
+    height:200px;
+    background-color: rgb(231, 231, 231);
+    
+    
+}
+.top-content {
+    margin: 0 auto;
+    text-align: center;
+}
+.top-text {
+    font-size: 20px;
+    padding-top: 40px;
+}
+.btn {
+    display:inline-block;
+    padding:20px 40px;
+    
+    background-color:rgb(96, 152, 255);
+    border-radius: 5px;
+}
+.top-btn :active {
+    background-color: rgb(136, 136, 136);
+}
+.top-btn{
+    transition: all 1s;
+    
+}
+.signup {
+    color: white;  
+    text-decoration: none;
+}
+
+.heading h2 {
+    font-size: 20px;
+}
+
+.course {
+    float: left;
+    width:325px;
+    height:170px;
+    color:white;
+    background-color: rgb(64, 145, 252);
+    margin-right:20px;
+    margin-left:60px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-top:10px;
+    font-size: 15px;    
+}
+
+.text a {
+    color:white;
+    margin-left:130px;
+    text-decoration: underline ;
+}
+.text h3, p {
+    font-size: 15px;
+    margin-left:10px;
+}
+.courses{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.footer-logo{
+    border-top:2px solid rgb(231, 231, 231);
+    margin-top:20px;
+}
+.footer-logo h2 {
+    float:left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tautan{
+    float:right; 
+    margin-top:20px;
+    margin-right:80px
+}
+
+.tautan a {
+    text-decoration: underline;
+    font-size: 15px;
+    color:black;
+    margin:0px 25px;
+}
+
+.footer-list {
+    margin-top:40px;
+    margin-right:115px;
+}
+.footer-list a{
+    color:rgb(182, 180, 180);
+    
+}
+.materi ul{
+    float:right;
+}
+.sosmed ul {
+    float:right;
+}
+
+.menu-ikon{
+    display: none;
+    padding-top: 25px;
+    transition: all 1s;
+    color:black;
+}
+.menu-ikon :active {
+    color:  rgb(136, 136, 136);
+}
