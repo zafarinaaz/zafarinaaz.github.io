@@ -52,6 +52,7 @@
    .footer-list{
     margin-top: 5px;
     flex-wrap: wrap;
+    justify-content:center;
     
    }
 
